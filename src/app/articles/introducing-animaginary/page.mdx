@@ -1,0 +1,22 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Michael Jordan',
+  date: '2024-10-02',
+  title: 'The Mechanics of INK: Understanding How Inflation-Linked Stablecoins Work',
+  description:
+    'INK is more than just a stablecoin, its a financial tool designed to hedge against inflation. Through a bond based system, investors can purchase NFTs and earn INK tokens at a 10% annual rate, with exchange rates fluctuating based on actual inflation rates. Discover how INK’s tokenomics align with real world economic conditions and provide a reliable store of value.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+INK operates through a unique mechanism that combines NFTs and staking to create a stable inflation-proof currency. Investors purchase NFT bonds in fiat currency, which are then staked to emit INK tokens at a fixed rate of 10% per annum. This system ensures that the value of INK remains closely linked to inflation. If inflation matches 10% by the year’s end, 1 INK equals 1 unit of fiat currency, maintaining purchasing power.
+
+However, the beauty of the system lies in its flexibility. If inflation turns out lower than 10%, the value of 1 INK exceeds 1 fiat currency unit, effectively rewarding investors. Conversely, if inflation is higher than 10%, 1 INK will be worth less than 1 unit of fiat. This dynamic exchange rate allows the INK stablecoin to reflect real-world economic conditions, giving users a hedge against unpredictable inflation rates.
+
+INK's model is also designed with volatility in mind. The token’s fiat reserves exceed its first-year supply by 10X, providing a buffer against market manipulation or sudden sell-offs. This reserve-backed structure means that even in unstable market environments, INK retains its value, offering a more stable alternative to traditional cryptocurrencies and fiat currencies alike.
