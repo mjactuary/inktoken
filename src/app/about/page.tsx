@@ -80,7 +80,7 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-            Inflation is often referred to as the "silent tax." It slowly erodes the value of money over time, and its effects are felt deeply in developing economies like those in Africa. For the average African, inflation can be devastating, reducing purchasing power, increasing the cost of living, and putting financial stability at risk.
+            Inflation is often referred to as the silent tax. It slowly erodes the value of money over time, and its effects are felt deeply in developing economies like those in Africa. For the average African, inflation can be devastating, reducing purchasing power, increasing the cost of living, and putting financial stability at risk.
             </p>
             <h2 className="font-bold tracking-tight text-zinc-800 sm:text-2xl dark:text-zinc-100">
               Understanding Inflation Risk</h2>
@@ -93,7 +93,7 @@ export default function About() {
             Many African economies are particularly vulnerable to inflation for several reasons, including reliance on imported goods, political instability, and fluctuating exchange rates. Countries like Zimbabwe and Nigeria have experienced periods of hyperinflation, where prices have skyrocketed at alarming rates. Even in more stable economies, annual inflation rates can be high compared to global averages, making it challenging for the average person to save or plan for the future.
             </p>
             <p>
-            In these environments, the currency’s value may diminish rapidly, and people's savings can become worthless within a short time. Those who rely on cash or traditional banking systems are often the most affected, especially in regions where financial literacy is low and alternative investments are scarce.
+            In these environments, the currency&apos;s value may diminish rapidly, and people&apos;s savings can become worthless within a short time. Those who rely on cash or traditional banking systems are often the most affected, especially in regions where financial literacy is low and alternative investments are scarce.
             </p>
             <h2 className="font-bold tracking-tight text-zinc-800 sm:text-2xl dark:text-zinc-100">
             How Inflation Hurts the Average African</h2>
@@ -118,7 +118,7 @@ Stablecoins: A New Solution for Inflation Risk</h2>
             <p>
             This is where INK, an inflation-linked stablecoin, can offer a revolutionary solution. Unlike traditional currencies that are susceptible to inflation, INK is pegged to an inflation index. This means that its value automatically adjusts in line with inflation, ensuring that holders retain their purchasing power, even in times of economic uncertainty.
             </p>
-<p>By offering a stable and secure store of value, INK helps protect individuals against the dangers of inflation. Whether you're saving for the future, sending money across borders, or conducting daily transactions, INK ensures that your money retains its value, even as prices rise.</p>
+<p>By offering a stable and secure store of value, INK helps protect individuals against the dangers of inflation. Whether you&apos;re saving for the future, sending money across borders, or conducting daily transactions, INK ensures that your money retains its value, even as prices rise.</p>
 
 
 <h2 className="font-bold tracking-tight text-zinc-800 sm:text-2xl dark:text-zinc-100">
