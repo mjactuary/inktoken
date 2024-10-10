@@ -83,7 +83,7 @@ export const Staking = () => {
                     margin: "20px 0",
                     width: "100%"
                 }}>
-                    <h2 style={{ marginRight: "20px"}}> Deposit R10 000 to receive an NFT to stake for INK token</h2>
+                    <h2 style={{ marginRight: "20px"}}> Deposit R1 million to receive an NFT to stake for INK token</h2>
                     <TransactionButton
                         transaction={() => (
                             claimTo({
