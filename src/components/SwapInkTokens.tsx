@@ -14,7 +14,7 @@ export const SwapInkTokens = () => {
     const address = account?.address;   // Get the wallet address
     const contract = SWAP_CONTRACT; // Load the contract
     const [_amountTokenB, setAmountTokenB] = useState(""); // Manage the amount input state
-    const amount = _amountTokenB * 1000000000000000000;
+    const amount = BigInt(_amountTokenB) * BigInt(1000000000000000000);
 
 
 
@@ -42,7 +42,7 @@ export const SwapInkTokens = () => {
                     prepareContractCall({
                         contract:SWAP_CONTRACT,
                         method: "function swap(uint256 _amountTokenB)",
-                        params: [[amount]],
+                        params: [amount],
                     })
                     
                 )}

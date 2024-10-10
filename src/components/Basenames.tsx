@@ -20,7 +20,7 @@ export const Basenames = () => {
                         resolverAddress: BASENAME_RESOLVER_ADDRESS,
                         resolverChain: base,
                     });
-                    setName(resolvedName); // Update the state with the resolved name
+                    setName(resolvedName || ''); // Update the state with the resolved name
                 } catch (error) {
                     console.error("Error resolving name:", error);
                 }
