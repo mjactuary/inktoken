@@ -47,7 +47,7 @@ export const metadata = {
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Get INK'd"
+      title="Get INK&apos;d"
       intro="Set your crypto wallet to the Base chain and use it to log into this website where you can invest R10 000 and receive a limited edition NFT bond. Stake your NFT bond below and continuously earn INK at a rate of 10% per annum. You can unstake your NFT at any time and you can withdraw your INK tokens at any time."
     >
       <div className="space-y-20">
